@@ -6,11 +6,12 @@
     box-shadow: 13px 15px 16px rgb(0, 168, 87);
     border: 3px solid rgb(0, 66, 9);
     border-radius: 37px;
+    background-color: lime;
 }
 
 .note
 {
-    font-size:18px;
+    font-size:16px;
     color: red;
 }
 
@@ -23,6 +24,7 @@
     width: 100%;
     height: 60px;
     padding-top: 5px;
+    margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
     background-color: cyan;
@@ -31,15 +33,23 @@
 
 #title
 {
-    font-size: 30px;
+    font-size: 29px;
     font-weight:bolder;
+    color: rgb(188, 53, 255);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
 }
 
 canvas
-{   box-shadow: 5px 5px 5px rgb(56, 56, 56);
+{   box-shadow: 6px 6px 4px rgb(144, 144, 144);
     border: 4px solid black;
-    border-radius: 20px;
-    margin-left: 200px; /*assuming if the canvas is at the left side(probably to much margin) so that it will come to the right*/
+    border-radius: 50px;
+    margin-left: 200px; 
+    margin-bottom: 10px;
+}
+
+#font_size
+{
+    font-size: 19px;
+    color:black;
 }
